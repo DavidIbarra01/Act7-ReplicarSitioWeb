@@ -4,6 +4,11 @@
 }
 
 /*Encabezado*/
+header>img{
+    width: 109px;
+    height: 63px;
+    padding-left: 3rem;
+}
 header{
     background-color: black;
     color: white;
@@ -356,7 +361,7 @@ padding-bottom: 30px;
     transform: scale(1.06);
 }
 
-/*4. THE VENUE*/
+/*4. == THE VENUE ==*/
 
 .TheVenue>img{
 height: 270px;
@@ -409,6 +414,11 @@ padding-right: 15%;
 padding-left: 7%;
 }
 
+.main2{
+padding-right: 25%;
+padding-left: 7%;
+}
+
 .aside{
    padding-right: 15%;
 }
@@ -457,14 +467,72 @@ header>div{
     padding: 1rem 2rem;
 }
 
-/*CONFIGURACION DEL FORMULARIO*/
+/*4. == EL REGISTER ==*/
 
-header>img{
-    width: 109px;
-    height: 63px;
-    padding-left: 3rem;
+.peronalInfo{
+    padding-top: 11px;
 }
 
+.radio1{
+    display: flex;
+}
+
+#msg{
+    padding: 20px;
+
+}
+
+/*CONFIGURACION DEL FORMULARIO*/
+
+.names{
+    display: flex;
+}
+
+.company{
+    display: flex;
+}
+
+.email{
+    display: flex;
+    
+}
+
+.comment{
+    display: flex;
+    
+}
+
+.names>input{
+    margin-left: 104px;
+}
+.company>input{
+    margin-left: 50px;
+}
+.email>input{
+    margin-left: 104px;
+}
+
+.comment>input{
+margin-left: 90px;
+}
+
+
+.request{
+    padding-top: 8px;
+    margin-left: 150px;
+}
+
+
+
+.Labels{
+    display: grid;
+}
+
+.Inputs{
+    display: grid;
+}
+
+/*El pie de pagina*/
 footer{
      color: white;
 background-color: rgb(73, 72, 72);
