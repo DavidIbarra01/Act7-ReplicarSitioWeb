@@ -429,14 +429,12 @@ padding-left: 7%;
 color: rgb(43, 42, 42);
 }
 
-
-
 .h2_Coming{
     color: red;
 }
 
 nav a:hover{
-    background-color: rgb(208, 206, 193);
+    background-color: rgb(174, 174, 171);
     color: white;
 }
 
