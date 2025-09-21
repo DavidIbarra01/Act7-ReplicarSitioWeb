@@ -336,8 +336,8 @@ display: grid;
 /*3. Lado derecho*/
 .div_GaleriaDeImagenes2{
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    gap: 20px;
+    grid-template-columns: repeat(3, 110px);
+    gap: 7px;
     padding-top: 11px;
     
 }
@@ -356,7 +356,15 @@ padding-bottom: 30px;
     transform: scale(1.06);
 }
 
+/*4. THE VENUE*/
 
+.TheVenue>img{
+height: 270px;
+}
+
+hr{
+    margin-top: 10px;
+}
 
 /*Textos subrayados con >>:*/
 
@@ -367,6 +375,7 @@ margin-left: 70%;
 
 .rouxMobile{
     margin-left: 55%;
+  
 }
 
 .thevenuetitulo{
